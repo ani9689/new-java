@@ -1,0 +1,35 @@
+import java.util.*;
+class fact
+{
+    int a;
+    Scanner sc=new Scanner(System.in);
+    void input()
+    {
+        System.out.println("Enter a number");
+        a=sc.nextInt();
+        
+    }
+}
+class calu extends cal
+{
+    int cal()
+    {
+        int i;
+        int cout=0;
+        for(int i=1;i<=a;i++)
+          { cout++;
+           }
+          if(c==2){System.out.println("It is Prime number");}
+          else{System.out.println("It is not a Prime number");}
+    }
+     
+}
+class Facter {
+    public static void main(String arg[])
+    {
+        calu x= new calu();
+        x.input();
+        int c=x.cal();
+        
+    }
+}
